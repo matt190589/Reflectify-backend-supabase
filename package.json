@@ -1,0 +1,49 @@
+{
+  "devDependencies": {
+    "supabase": "^1.38.6"
+  },
+  "name": "reflectify-backend-supabase",
+  "description": "Rebuild of the backend on one-week bootcamp tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "bin-links": "^4.0.1",
+    "chownr": "^2.0.0",
+    "cmd-shim": "^6.0.1",
+    "data-uri-to-buffer": "^4.0.1",
+    "express": "^4.18.2",
+    "fetch-blob": "^3.2.0",
+    "formdata-polyfill": "^4.0.10",
+    "fs-minipass": "^2.1.0",
+    "imurmurhash": "^0.1.4",
+    "minipass": "^4.0.3",
+    "minizlib": "^2.1.2",
+    "mkdirp": "^1.0.4",
+    "node-domexception": "^1.0.0",
+    "node-fetch": "^3.3.0",
+    "npm-normalize-package-bin": "^3.0.0",
+    "read-cmd-shim": "^4.0.0",
+    "signal-exit": "^3.0.7",
+    "tar": "^6.1.13",
+    "web-streams-polyfill": "^3.2.1",
+    "write-file-atomic": "^5.0.0",
+    "yallist": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt190589/Reflectify-backend-supabase.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt190589/Reflectify-backend-supabase/issues"
+  },
+  "homepage": "https://github.com/matt190589/Reflectify-backend-supabase#readme"
+}
